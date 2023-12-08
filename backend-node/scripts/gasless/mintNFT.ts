@@ -89,7 +89,6 @@ export const mintNft = async () => {
     /*paymasterServiceData: {
       mode: PaymasterMode.SPONSORED,
     }*/
-    skipBundlerGasEstimation: false
   });
   console.timeEnd("buildUserOp:");
 
